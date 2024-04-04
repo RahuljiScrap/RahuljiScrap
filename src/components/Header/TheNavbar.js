@@ -64,7 +64,7 @@ const TheNavbar = (props) => {
                 offset={-50}
                 duration={500}
               >
-                Our dishes
+                How does it work?
               </Link>
             </Nav.Link>
             <Nav.Link className={`${classes.nav__link} me-4`}>
@@ -76,7 +76,7 @@ const TheNavbar = (props) => {
                 offset={-50}
                 duration={500}
               >
-                About us
+                Schedule a Pickup
               </Link>
             </Nav.Link>
             <Nav.Link className={`${classes.nav__link} me-4`}>

@@ -1,16 +1,16 @@
-# SwadYukt food order application
+# ScrapRecycle food order application
 
 A simulation of an Application where you can order and pay for food
 
 **End Result**
 
-Click the link : https://swadyukt.in/
+Click the link : https://ScrapRecycle.in/
 
 # Description
 
 **Details**
 
-SwadYukt is an single page application with a well structured layout, where you view both information  of the web app and order food items by adding them to the cart. 
+ScrapRecycle is an single page application with a well structured layout, where you view both information  of the web app and order food items by adding them to the cart. 
 
 The application let you see both the name and image of each product then gives you the flexibility to add between one to five 5 items to the cart at once with a single button click. 
 

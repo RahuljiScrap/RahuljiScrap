@@ -9,13 +9,13 @@
 }
 
 :root {
-  --primarybackground: #ffe9e0;
-  --primaryitemcolor: #ff4d00;
+  --primarybackground: #7bcf89;
+  --primaryitemcolor: #12ca93;
   --textcolor: rgba(0, 0, 0, 0.81);
   --primarytextcolor: #000000;
   --secondarytextcolor: #959190;
   --tertiarytextcolor: #443d3d;
-  --bordercolor: rgba(255, 77, 0, 0.6);
+  --bordercolor: rgba(12, 230, 172, 0.6);
   --secondarybordercolor: #e1e1e1;
   --tertiarybordercolor: #d9d9d9;
   --heartcolor: #e81224;
@@ -47,6 +47,6 @@ body {
 }
 
 ::selection {
-  background-color: var(--primaryitemcolor);
+  background-color: var(--light);
   color: var(--light);
 }

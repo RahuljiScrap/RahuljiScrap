@@ -33,7 +33,7 @@ const HeroSixSection = () => {
               <h4 className={classes.header_text}>Divyansh Goyal</h4>
               <p className={classes.text_location}>Greater Noida</p>
               <p className={classes.text_content}>
-                With a SwadYukt Eats meal, you can serve delectable, home-cooked
+                With a ScrapRecycle Eats meal, you can serve delectable, home-cooked
                 meals to your family and friends in any location, anytime.
                 anyday!
               </p>
@@ -70,7 +70,7 @@ const HeroSixSection = () => {
               <h4 className={classes.header_text}>Gauri Shanker</h4>
               <p className={classes.text_location}>Noida sector 62</p>
               <p className={classes.text_content}>
-                No need to worry about any of this anymore with your app. SwadYukt
+                No need to worry about any of this anymore with your app. ScrapRecycle
                 Eats are made with the highest quality ingredients for you and
                 your family.{" "}
               </p>

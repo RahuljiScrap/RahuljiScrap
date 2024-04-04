@@ -30,7 +30,7 @@ const HeroFourSection = () => {
               <p className={classes.text_content}>
                 We make delicious healthy meals for busy people who want to enjoy
                 home made food without the hassle of cooking. Why would you cook
-                when you don't have to? SwadYukt makes it easy to eat your
+                when you don't have to? ScrapRecycle makes it easy to eat your
                 favorite home cooked food anywhere you want. You deserve to eat
                 great food, whether you're at home or on the go. We'll help you
                 find unique meals wherever you are. With our app, you never have
@@ -59,7 +59,7 @@ const HeroFourSection = () => {
                 <p className={classes.text_content}>
                   We make delicious healthy meals for busy people who want to
                   enjoy home made food without the hassle of cooking. Why would
-                  you cook when you don't have to? SwadYukt Plate makes it easy
+                  you cook when you don't have to? ScrapRecycle Plate makes it easy
                   to eat your favorite home cooked food anywhere you want. You
                   deserve to eat great food, whether you're at home or on the
                   go.

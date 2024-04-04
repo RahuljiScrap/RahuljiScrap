@@ -21,11 +21,10 @@ const HeroSection = () => {
           >
             <div className={classes.text__div}>
               <h1>
-                Enjoy <span>Maa Ka Khaana</span> far away from home
+                Sell <span>All the scrap</span> from home/office to ScrapRecycle
               </h1>
               <p>
-                Helping you enjoy comfortable and healthy food anywhere and
-                anytime on the go
+              "Turning your scrap into treasure! We buy scrap from homes and offices, making recycling convenient and rewarding. Let us pick up your unwanted items and transform them into sustainable resources for the future. Together, let's build a greener tomorrow.”
               </p>
 
               <Link
@@ -36,7 +35,7 @@ const HeroSection = () => {
                 offset={-50}
                 duration={500}
               >
-                <TheButton>Order Now</TheButton>
+                <TheButton>Schedule a Pick-up</TheButton>
               </Link>
             </div>
           </Col>

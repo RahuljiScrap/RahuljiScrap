@@ -46,7 +46,7 @@ const HeroFiveSection = () => {
                   src={appStore}
                   alt="ipone app badge"
                 ></img> */}
-                  <a href="https://play.google.com/store/apps/details?id=com.appophile.swadyukt&pli=1">
+                  <a href="https://play.google.com/store/apps/details?id=com.appophile.ScrapRecycle&pli=1">
                 <img
                   className={`${classes.download_badge2} ms-3`}
                   src={playStore}

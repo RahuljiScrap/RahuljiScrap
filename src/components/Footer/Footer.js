@@ -66,7 +66,7 @@ const Footer = () => {
             <div className={classes.social}>
               <h3>Social</h3>
               <a
-                href="https://www.instagram.com/swadyukt/"
+                href="https://www.instagram.com/ScrapRecycle/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -79,7 +79,7 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href="https://twitter.com/SwadYukt/"
+                href="https://twitter.com/ScrapRecycle/"
                 target="_blank"
                 rel="noreferrer"
               >

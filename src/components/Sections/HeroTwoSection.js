@@ -40,7 +40,7 @@ const HeroTwoSection = () => {
                   <img src={hamimg} alt="Hanmburger"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>Easy to order</h5>
+                  <h5>Best rate</h5>
                   <p>
                     Order food at a single click and select all food to order at
                     any poin in time and at ease and comfort{" "}
@@ -63,7 +63,7 @@ const HeroTwoSection = () => {
                   <img src={deliveryimg} alt="Delivery man"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>fast delivery</h5>
+                  <h5>Convenience</h5>
                   <p>
                     food delivery fast and reliable and get delivered at
                     deliivery time and location any day, any time
@@ -90,7 +90,7 @@ const HeroTwoSection = () => {
                   <img src={topimg} alt="Thumbs up"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>100% quality</h5>
+                  <h5>Eco friendly</h5>
                   <p>
                     We provide quality food for you and your loved ones for
                     health and so onnnnnn and for wellness
