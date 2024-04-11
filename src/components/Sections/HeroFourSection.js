@@ -57,12 +57,7 @@ const HeroFourSection = () => {
               <div className={classes.text_div}>
                 <h2 className={classes.text_header}>About us</h2>
                 <p className={classes.text_content}>
-                  We make delicious healthy meals for busy people who want to
-                  enjoy home made food without the hassle of cooking. Why would
-                  you cook when you don't have to? ScrapRecycle Plate makes it easy
-                  to eat your favorite home cooked food anywhere you want. You
-                  deserve to eat great food, whether you're at home or on the
-                  go.
+                  At ScrapRecycle, we believe in making recycling convenient and rewarding for everyone. Our scrap pickup service allows individuals to schedule pickups from the comfort of their homes at their convenience. We are dedicated to ensuring a hassle-free experience for our customers. Whether you have a few items or a large collection of scrap materials, we're here to help. We pay fair prices for scrap materials, encouraging sustainable practices while providing an additional source of income for our customers. Through our efficient recycling process, we strive to reduce waste and promote environmental stewardship. Join us in our mission to create a cleaner, greener future for generations to come.
                 </p>
                 <div className={classes.button_div}>
                   <TheButton onClick={aboutModal}>See more</TheButton>

@@ -1,5 +1,6 @@
 .navbar {
   background-color: var(--primarybackground);
+  background-color: black;
   padding: 5px 5rem;
 }
 

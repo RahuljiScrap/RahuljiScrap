@@ -162,8 +162,8 @@ const HeroThreeSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Our daily dishes</h2>
-              <p>Check out recommended dishes of your choice</p>
+              <h2>Large Appliances</h2>
+              <p></p>
             </div>
           </Col>
         </Row>
@@ -171,7 +171,7 @@ const HeroThreeSection = () => {
         <div className={classes.header_div}>
           <p></p>
           <p></p>
-        <h3>Our Special Rice Menu</h3>
+        <h3></h3>
         <p></p>
         <p></p>
          </div>

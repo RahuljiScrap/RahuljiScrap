@@ -4,7 +4,7 @@ import classes from "./HeroSection.module.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import FoodImage from "../../assets/image/FoodImage.png";
+import FoodImage from "../../assets/image/recycle image.png";
 
 const HeroSection = () => {
   //Rendering the Hero section(Landing page) on the DOM
@@ -21,7 +21,8 @@ const HeroSection = () => {
           >
             <div className={classes.text__div}>
               <h1>
-                Sell <span>All the scrap</span> from home/office to ScrapRecycle
+                Get cash for your scrap without the hassle – ScrapRecycle will pick up from your doorstep!
+                Appliances - Metal - Plastic - Paper
               </h1>
               <p>
               "Turning your scrap into treasure! We buy scrap from homes and offices, making recycling convenient and rewarding. Let us pick up your unwanted items and transform them into sustainable resources for the future. Together, let's build a greener tomorrow.”
@@ -53,28 +54,7 @@ const HeroSection = () => {
             </div>
           </Col>
         </Row>
-        <Row
-          data-aos="fade-up"
-          data-aos-easing="ease-out"
-          data-aos-duration="700"
-        >
-          <div className={classes.number__properties}>
-            <div>
-              <p className={classes.number__properties__digit}>10+</p>
-              <p className={classes.number__properties__text}>Maa & partners</p>
-            </div>
-            <div className="mx-4">
-              <p className={classes.number__properties__digit}>1k+</p>
-              <p className={classes.number__properties__text}>
-                orders delivered
-              </p>
-            </div>
-            <div>
-              <p className={classes.number__properties__digit}>100+</p>
-              <p className={classes.number__properties__text}>Clients</p>
-            </div>
-          </div>
-        </Row>
+        
       </Container>
     </section>
   );

@@ -19,7 +19,7 @@ const HeroTwoSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Why choose us</h2>
+              <h2>Why us</h2>
               <p>This is what makes our product different</p>
             </div>
           </Col>
@@ -40,10 +40,9 @@ const HeroTwoSection = () => {
                   <img src={hamimg} alt="Hanmburger"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>Best rate</h5>
+                  <h5>Best price</h5>
                   <p>
-                    Order food at a single click and select all food to order at
-                    any poin in time and at ease and comfort{" "}
+                  We offer the most competitive prices for your scrap through our extensive network of recyclers.{" "}
                   </p>
                 </div>
               </div>
@@ -65,8 +64,32 @@ const HeroTwoSection = () => {
                 <div className={classes.card_text_div}>
                   <h5>Convenience</h5>
                   <p>
-                    food delivery fast and reliable and get delivered at
-                    deliivery time and location any day, any time
+                  Doorstep pickup from your place , at a date and time that suits you the best.
+                  </p>
+                  <p className={classes.extra_cond}>
+                   *Delivery charges extra applicable
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Col>
+
+          <Col
+            lg={4}
+            data-aos="zoom-in"
+            data-aos-easing="ease-out"
+            data-aos-duration="700"
+            data-aos-delay="200"
+          >
+            <div className={`${classes.card_two} ${classes.card}`}>
+              <div className={classes.card_content}>
+                <div className={classes.card_image_div}>
+                  <img src={deliveryimg} alt="Delivery man"></img>
+                </div>
+                <div className={classes.card_text_div}>
+                  <h5>Trust</h5>
+                  <p>
+                  Trained and verified pickup technician, with smart weighing machine & toolkit.
                   </p>
                   <p className={classes.extra_cond}>
                    *Delivery charges extra applicable
@@ -92,8 +115,7 @@ const HeroTwoSection = () => {
                 <div className={classes.card_text_div}>
                   <h5>Eco friendly</h5>
                   <p>
-                    We provide quality food for you and your loved ones for
-                    health and so onnnnnn and for wellness
+                  We ensure the ethical disposal and recycling of your scrap materials.
                   </p>
                 </div>
               </div>
