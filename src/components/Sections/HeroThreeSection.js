@@ -167,15 +167,15 @@ const HeroThreeSection = () => {
             </div>
           </Col>
         </Row>
-        <Col xs={12}>
+        {/* <Col xs={12}>
         <div className={classes.header_div}>
           <p></p>
           <p></p>
-        <h3></h3>
+        
         <p></p>
         <p></p>
          </div>
-         </Col>
+         </Col> */}
         <Row>{dishListRice}</Row>
         <Col xs={12}>
         <div className={classes.header_div}>
