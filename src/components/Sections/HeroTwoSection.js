@@ -2,9 +2,10 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./HeroTwoSection.module.css";
-import hamimg from "../../assets/Icon/hamburger.svg";
-import deliveryimg from "../../assets/Icon/delivery-man.svg";
-import topimg from "../../assets/Icon/top-food.svg";
+import rupees from "../../assets/Icon/indian-rupee-sign-currency-money-india-93656223b777fab21330968b204d776c.png";
+import deliveryimg from "../../assets/Icon/5bb9141352788-587de0a089dd3ee4affc7ac25876de70.png";
+import streetviewimg from "../../assets/Icon/street-view-trusted-computer-software-photography-greenlight-recruitment-virtual-tour-business-54769d9cd845b031b2db29614e86d7ed.png";
+import topimg from "../../assets/Icon/marmoleum-linoleum-environmentally-friendly-sheet-vinyl-flooring-cork-eco-city-9e3361f6fee89aac238d50e014921823.png";
 
 const HeroTwoSection = () => {
   //Rendering the HeroTwo section
@@ -37,7 +38,7 @@ const HeroTwoSection = () => {
             <div className={`${classes.card_one} ${classes.card}`}>
               <div className={classes.card_content}>
                 <div className={classes.card_image_div}>
-                  <img src={hamimg} alt="Hanmburger"></img>
+                  <img src={rupees} alt="Hanmburger" style={{width: '70px', height: '70px'}}></img>
                 </div>
                 <div className={classes.card_text_div}>
                   <h5>Best price</h5>
@@ -59,7 +60,7 @@ const HeroTwoSection = () => {
             <div className={`${classes.card_two} ${classes.card}`}>
               <div className={classes.card_content}>
                 <div className={classes.card_image_div}>
-                  <img src={deliveryimg} alt="Delivery man"></img>
+                  <img src={deliveryimg} alt="Delivery man" style={{ height: '70px', width: '80px'}}></img>
                 </div>
                 <div className={classes.card_text_div}>
                   <h5>Convenience</h5>
@@ -84,7 +85,7 @@ const HeroTwoSection = () => {
             <div className={`${classes.card_two} ${classes.card}`}>
               <div className={classes.card_content}>
                 <div className={classes.card_image_div}>
-                  <img src={deliveryimg} alt="Delivery man"></img>
+                  <img src={streetviewimg} alt="Street view" style={{ height: '80px', width:'80px'}}></img>
                 </div>
                 <div className={classes.card_text_div}>
                   <h5>Trust</h5>
@@ -110,7 +111,7 @@ const HeroTwoSection = () => {
             <div className={`${classes.card_three} ${classes.card}`}>
               <div className={classes.card_content}>
                 <div className={classes.card_image_div}>
-                  <img src={topimg} alt="Thumbs up"></img>
+                  <img src={topimg} alt="Thumbs up" style={{ height: '70px', width: '70px'}}></img>
                 </div>
                 <div className={classes.card_text_div}>
                   <h5>Eco friendly</h5>

@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./HeroFiveSection.module.css";
-import mobileImage from "../../assets/image/mobile.webp";
-import playStore from "../../assets/image/playstore.png";
+// import mobileImage from "../../assets/image/mobile.webp";
+// import playStore from "../../assets/image/playstore.png";
 // import appStore from "../../assets/image/appstore.png";
 
 const HeroFiveSection = () => {
@@ -18,9 +18,9 @@ const HeroFiveSection = () => {
           data-aos-duration="700"
         >
           <Col xs={12}>
-            <div className={classes.header_div}>
+            {/* <div className={classes.header_div}>
               <h2>Our Mobile app</h2>
-            </div>
+            </div> */}
           </Col>
         </Row>
 
@@ -33,12 +33,12 @@ const HeroFiveSection = () => {
           >
             <div className={classes.text_div}>
               <p className={classes.text_content}>
-                With our app, you never have to settle for unhealthy, expensive
+                {/* With our app, you never have to settle for unhealthy, expensive
                 takeaway food again. From spicy noodles to fresh salads, we'll
                 deliver anywhere in your city. Get tasty meals in just 30
                 minutes. It's simple. We make it easy for you to make smart
                 business decisions fast. Whether you have a busy schedule or
-                just enjoy home-cooked food,
+                just enjoy home-cooked food, */}
               </p>
               <div className={classes.action_div}>
                 {/* <img
@@ -46,13 +46,13 @@ const HeroFiveSection = () => {
                   src={appStore}
                   alt="ipone app badge"
                 ></img> */}
-                  <a href="https://play.google.com/store/apps/details?id=com.appophile.ScrapRecycle&pli=1">
+                  {/* <a href="https://play.google.com/store/apps/details?id=com.appophile.ScrapRecycle&pli=1">
                 <img
                   className={`${classes.download_badge2} ms-3`}
                   src={playStore}
                   alt="google app badge"
                 ></img>
-                  </a>
+                  </a> */}
               </div>
             </div>
           </Col>
@@ -62,13 +62,13 @@ const HeroFiveSection = () => {
             data-aos-easing="ease-out"
             data-aos-duration="700"
           >
-            <div className={classes.image_div}>
+            {/* <div className={classes.image_div}>
               <img
                 className={classes.image}
                 src={mobileImage}
                 alt="about"
               ></img>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>

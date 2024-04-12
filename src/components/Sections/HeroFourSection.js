@@ -3,7 +3,7 @@ import { Row, Container, Col } from "react-bootstrap";
 import TheButton from "../Ui/TheButton";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./HeroFourSection.module.css";
-import aboutImage from "../../assets/image/about-image.png";
+// import aboutImage from "../../assets/image/about-image.png";
 import Modal from "../Ui/Modal";
 
 const HeroFourSection = () => {
@@ -28,13 +28,13 @@ const HeroFourSection = () => {
             </div>
             <div className={classes.about_body}>
               <p className={classes.text_content}>
-                We make delicious healthy meals for busy people who want to enjoy
+                {/* We make delicious healthy meals for busy people who want to enjoy
                 home made food without the hassle of cooking. Why would you cook
                 when you don't have to? ScrapRecycle makes it easy to eat your
                 favorite home cooked food anywhere you want. You deserve to eat
                 great food, whether you're at home or on the go. We'll help you
                 find unique meals wherever you are. With our app, you never have
-                to settle for unhealthy, expensive takeaway food again.
+                to settle for unhealthy, expensive takeaway food again. */}
               </p>
             </div>
             <div className={classes.about_footer}>
@@ -65,7 +65,7 @@ const HeroFourSection = () => {
               </div>
             </Col>
             <Col lg={6}>
-              <div
+              {/* <div
                 className={classes.image_div}
                 data-aos="fade-left"
                 data-aos-easing="ease-out"
@@ -76,7 +76,7 @@ const HeroFourSection = () => {
                   src={aboutImage}
                   alt="about"
                 ></img>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>

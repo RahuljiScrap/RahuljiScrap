@@ -14,10 +14,10 @@ const HeroSixSection = () => {
           data-aos-duration="700"
         >
           <Col xs={12}>
-            <div className={classes.header_div}>
+            {/* <div className={classes.header_div}>
               <h2>Testimonials</h2>
               <p>This is what our client are saying</p>
-            </div>
+            </div> */}
           </Col>
         </Row>
 
@@ -29,7 +29,7 @@ const HeroSixSection = () => {
             data-aos-duration="700"
             data-aos-delay="150"
           >
-            <div className={`${classes.text_div} px-2`}>
+            {/* <div className={`${classes.text_div} px-2`}>
               <h4 className={classes.header_text}>Divyansh Goyal</h4>
               <p className={classes.text_location}>Greater Noida</p>
               <p className={classes.text_content}>
@@ -37,7 +37,7 @@ const HeroSixSection = () => {
                 meals to your family and friends in any location, anytime.
                 anyday!
               </p>
-            </div>
+            </div> */}
           </Col>
 
           <Col
@@ -47,7 +47,7 @@ const HeroSixSection = () => {
             data-aos-duration="700"
             data-aos-delay="300"
           >
-            <div className={`${classes.text_div} px-2`}>
+            {/* <div className={`${classes.text_div} px-2`}>
               <h4 className={classes.header_text}>Pulkit Aggarawal</h4>
               <p className={classes.text_location}>Indirapuram,Ghaziabad</p>
               <p className={classes.text_content}>
@@ -56,7 +56,7 @@ const HeroSixSection = () => {
                 hundreds of people, you'll always be prepared. whether you're at
                 home or on the go.{" "}
               </p>
-            </div>
+            </div> */}
           </Col>
 
           <Col
@@ -66,7 +66,7 @@ const HeroSixSection = () => {
             data-aos-duration="700"
             data-aos-delay="450"
           >
-            <div className={`${classes.text_div} px-2`}>
+            {/* <div className={`${classes.text_div} px-2`}>
               <h4 className={classes.header_text}>Gauri Shanker</h4>
               <p className={classes.text_location}>Noida sector 62</p>
               <p className={classes.text_content}>
@@ -74,7 +74,7 @@ const HeroSixSection = () => {
                 Eats are made with the highest quality ingredients for you and
                 your family.{" "}
               </p>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>

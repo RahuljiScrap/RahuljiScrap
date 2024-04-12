@@ -1,7 +1,7 @@
 .navbar {
   background-color: var(--primarybackground);
   background-color: black;
-  padding: 5px 5rem;
+  padding: 5px 2rem;
 }
 
 .navbar_brand {
@@ -32,6 +32,7 @@
   font-weight: 500;
   color: var(--dark);
   transition: 0.3s;
+  color: whitesmoke;
 }
 
 .navbar .nav__link:focus {
@@ -75,5 +76,6 @@
     font-weight: 500;
     color: var(--dark);
     transition: 0.3s;
+    color: whitesmoke;
   }
 }
