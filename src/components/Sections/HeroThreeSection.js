@@ -1,206 +1,86 @@
+// HeroThreeSection.js
+
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./HeroThreeSection.module.css";
-// import dish1 from "../../assets/image/dish1.png";
-// import dish2 from "../../assets/image/dish2.png";
-// import dish3 from "../../assets/image/dish3.png";
-// import regularBreakfast from "../../assets/image/regularBreakfast.png";
-// import deluxeBreakfast from "../../assets/image/deluxeBreakfast.png";
-// import premiumBreakfast from "../../assets/image/premiumBreakfast.png";
-import HeroThreeContent from "../SectionComponents/HeroThreeContent";
-// import dalChawal from "../../assets/image/dalChawal.png";
-// import kadiChawal from "../../assets/image/kadiChawal.png";
-// import rajmaChawal from "../../assets/image/rajmaChawal.png";
-// import lobiaMasalaChawal from "../../assets/image/lobiaMasalaChawal.png";
-
-//Data objects to be used in the HeroThree section for rendering dishes information
-const dummyListone = [
-  // {
-  //   id: "d1",
-  //   src: regularBreakfast,
-  //   name: "Poha tasty",
-  //   price: 99,
-  // },
-
-  // {
-  //   id: "d2",
-  //   src: deluxeBreakfast,
-  //   name: "Bread Omlette and Poha",
-  //   price: 129,
-  // },
-
-  // {
-  //   id: "d3",
-  //   src: premiumBreakfast,
-  //   name: "Porridge beans and veggies",
-  //   price: 169,
-  // },
-];
-
-
-const riceMeals = [
-  // {
-  //   id: "d1",
-  //   src: kadiChawal,
-  //   name: "Kadi Chawal",
-  //   price: 69,
-  // },
-
-  // {
-  //   id: "d2",
-  //   src: dalChawal,
-  //   name: "Dal Rice",
-  //   price: 69,
-  // },
-
-  // {
-  //   id: "d3",
-  //   src: rajmaChawal,
-  //   name: "Rajma Rice",
-  //   price: 69,
-  // },
-  // {
-  //   id: "d3",
-  //   src: lobiaMasalaChawal,
-  //   name: "Lobhiya masala Rice",
-  //   price: 69,
-  // }
-];
-
-const dummyListtwo = [
-  // {
-  //   id: "d4",
-  //   src: dish1,
-  //   name: "Regular Thali",
-  //   price: 99,
-  // },
-
-  // {
-  //   id: "d5",
-  //   src: dish2,
-  //   name: "Deluxe Thali",
-  //   price: 129,
-  // },
-
-  // {
-  //   id: "d6",
-  //   src: dish3,
-  //   name: "Premium Thali",
-  //   price: 159,
-  // },
-];
-//END
+// import {Ac  } from "../../assets/image/air-conditioning-refrigeration-hvac-home-appliance-refrigerator-refrigerator-0ab633c8e63fb805d2040dc4577a41b7.png";
 
 const HeroThreeSection = () => {
-  //Mapping the data from the object above and storing them in a variable
+  // Data for appliances
+  const largeAppliances = [
+    { name: "Ac", price: "upto ₹4000/piece" },
+    { name: "Washing machine", price: "₹1000/piece" },
+    { name: "Fridge", price: "upto ₹1500/piece" }
+  ];
 
-  const dishListRice = riceMeals.map((dish) => (
-    <Col lg={4} className={classes.dish_col}>
-      <div
-        data-aos="fade-up"
-        data-aos-easing="ease-out"
-        data-aos-duration="700"
-      >
-        <HeroThreeContent
-          key={dish.id}
-          id={dish.id}
-          name={dish.name}
-          src={dish.src}
-          price={dish.price}
-        />
-      </div>
-    </Col>
-  ));
+  const smallAppliances = [
+    { name: "Metal", price: "₹30/kg" },
+    { name: "Plastic", price: "Variable" },
+    { name: "Fan", price: "₹30/kg" }
+  ];
 
-  const dishList1 = dummyListone.map((dish) => (
-    <Col lg={4} className={classes.dish_col}>
-      <div
-        data-aos="fade-up"
-        data-aos-easing="ease-out"
-        data-aos-duration="700"
-      >
-        <HeroThreeContent
-          key={dish.id}
-          id={dish.id}
-          name={dish.name}
-          src={dish.src}
-          price={dish.price}
-        />
-      </div>
-    </Col>
-  ));
+  const otherAppliances = [
+    { name: "Tv", price: "₹150/piece" },
+    { name: "Bike", price: "₹2100/piece" },
+    { name: "Car", price: "₹20000/piece" }
+  ];
 
-  const dishList2 = dummyListtwo.map((dish) => (
-    <Col lg={4} className={classes.dish_col}>
-      <div
-        data-aos="fade-up"
-        data-aos-easing="ease-out"
-        data-aos-duration="700"
-      >
-        <HeroThreeContent
-          key={dish.id}
-          id={dish.id}
-          name={dish.name}
-          src={dish.src}
-          price={dish.price}
-        />
-      </div>
-    </Col>
-  ));
-  //END
-
-  //Rendering the Hero Three section
-  return (
-    <section id="dishes">
-      <Container>
-        <Row
-          className={`${classes.row} mx-auto`}
+  // Function to render appliance cards
+  const renderApplianceCards = (appliances) => {
+    return appliances.map((appliance, index) => (
+      <Col lg={4} key={index} className={`${classes.dish_col} mb-4`}>
+        <div
           data-aos="fade-up"
           data-aos-easing="ease-out"
           data-aos-duration="700"
+          className={classes.card}
         >
+          <img src={`../../assets/image/${appliance.name}.png`} alt={appliance.name} />
+          <div className={classes.card_body}>
+            <p className={classes.card_text}>{appliance.price}</p>
+          </div>
+        </div>
+        <h5 className={classes.card_title}>{appliance.name}</h5>
+      </Col>
+    ));
+  };
+
+  return (
+    <section id="appliances">
+      <Container>
+        {/* Large Appliances */}
+        <Row className={`${classes.row} mx-auto`} data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="700">
           <Col xs={12}>
             <div className={classes.header_div}>
               <h2>Large Appliances</h2>
-              <p></p>
             </div>
           </Col>
         </Row>
-        <Col xs={12}>
-        <div className={classes.header_div}>
-          <p>Ac upto ₹4000/piece</p>
-          <p>Washing machine ₹1000/piece</p>
-        
-        <p>Fridge upto ₹1500/piece</p>
-        <p>Cooler upto ₹30/kg</p>
-         </div>
-         </Col>
-        <Row>{dishListRice}</Row>
-        <Col xs={12}>
-        <div className={classes.header_div}>
-          <p></p>
-          <p></p>
-        <h3>Small Appliances</h3>
-        <p> Metal ₹30/kg</p>
-        <p> Plastic</p>
-        <p> Fan ₹30/kg</p>
-        <p> Tv ₹150/piece</p>
-         </div>
-         </Col>
-        <Row>{dishList2}</Row>
-        <Col xs={12}>
-        <div className={classes.header_div}>
-        <h3>Other Appliances</h3>
-        <p>Bike ₹2100/piece</p>
-        <p>Car ₹20000/piece</p>
-         </div>
-         </Col>
-        <Row className={classes.row_dish}>{dishList1}</Row>
+        <Row>{renderApplianceCards(largeAppliances)}</Row>
+
+        {/* Small Appliances */}
+        <Row className={`${classes.row} mx-auto`} data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="700">
+          <Col xs={12}>
+            <div className={classes.header_div}>
+              <h2>Small Appliances</h2>
+            </div>
+          </Col>
+        </Row>
+        <Row>{renderApplianceCards(smallAppliances)}</Row>
+
+        {/* Other Appliances */}
+        <Row className={`${classes.row} mx-auto`} data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="700">
+          <Col xs={12}>
+            <div className={classes.header_div}>
+              <h2>Other Appliances</h2>
+            </div>
+          </Col>
+        </Row>
+        <Row>{renderApplianceCards(otherAppliances)}</Row>
       </Container>
     </section>
   );
-  //END
 };
 
 export default HeroThreeSection;
