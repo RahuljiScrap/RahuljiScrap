@@ -167,32 +167,35 @@ const HeroThreeSection = () => {
             </div>
           </Col>
         </Row>
-        {/* <Col xs={12}>
+        <Col xs={12}>
         <div className={classes.header_div}>
-          <p></p>
-          <p></p>
+          <p>Ac upto ₹4000/piece</p>
+          <p>Washing machine ₹1000/piece</p>
         
-        <p></p>
-        <p></p>
+        <p>Fridge upto ₹1500/piece</p>
+        <p>Cooler upto ₹30/kg</p>
          </div>
-         </Col> */}
+         </Col>
         <Row>{dishListRice}</Row>
         <Col xs={12}>
         <div className={classes.header_div}>
           <p></p>
           <p></p>
         <h3>Small Appliances</h3>
-        <p></p>
-        <p></p>
+        <p> Metal ₹30/kg</p>
+        <p> Plastic</p>
+        <p> Fan ₹30/kg</p>
+        <p> Tv ₹150/piece</p>
          </div>
          </Col>
         <Row>{dishList2}</Row>
-        {/* <Col xs={12}>
+        <Col xs={12}>
         <div className={classes.header_div}>
-        <h3>Our Breakfast menu</h3>
-        <p></p>
+        <h3>Other Appliances</h3>
+        <p>Bike ₹2100/piece</p>
+        <p>Car ₹20000/piece</p>
          </div>
-         </Col> */}
+         </Col>
         <Row className={classes.row_dish}>{dishList1}</Row>
       </Container>
     </section>
