@@ -9,15 +9,9 @@ import classes from "./HeroThreeSection.module.css";
 // import deluxeBreakfast from "../../assets/image/deluxeBreakfast.png";
 // import premiumBreakfast from "../../assets/image/premiumBreakfast.png";
 import HeroThreeContent from "../SectionComponents/HeroThreeContent";
-<<<<<<< HEAD
-// import dalChawal from "../../assets/image/dalChawal.png";
-// import kadiChawal from "../../assets/image/kadiChawal.png";
-// import rajmaChawal from "../../assets/image/rajmaChawal.png";
-=======
 import schedule from "../../assets/image/car-pickup-truck-delivery-car-f86f1de601a4e48109a5d0307b522b97.png";
 import delivery from "../../assets/image/art-business-royalty-free-others-26967f72c8d69220b8ad283ddf981546.png";
 import payment from "../../assets/image/computer-icons-payment-iconfinder-pay-payment-icon-dc43f146aa42f6f0bb7c99a329a52a4e.png";
->>>>>>> vishal-ui-15april
 // import lobiaMasalaChawal from "../../assets/image/lobiaMasalaChawal.png";
 
 //Data objects to be used in the HeroThree section for rendering dishes information
@@ -46,34 +40,6 @@ const dummyListone = [
 
 
 const riceMeals = [
-<<<<<<< HEAD
-  // {
-  //   id: "d1",
-  //   src: kadiChawal,
-  //   name: "Kadi Chawal",
-  //   price: 69,
-  // },
-
-  // {
-  //   id: "d2",
-  //   src: dalChawal,
-  //   name: "Dal Rice",
-  //   price: 69,
-  // },
-
-  // {
-  //   id: "d3",
-  //   src: rajmaChawal,
-  //   name: "Rajma Rice",
-  //   price: 69,
-  // },
-  // {
-  //   id: "d3",
-  //   src: lobiaMasalaChawal,
-  //   name: "Lobhiya masala Rice",
-  //   price: 69,
-  // }
-=======
   {
     id: "d1",
     src: delivery,
@@ -95,7 +61,6 @@ const riceMeals = [
     price: 69,
   },
   
->>>>>>> vishal-ui-15april
 ];
 
 const dummyListtwo = [
