@@ -33,8 +33,7 @@ const Footer = () => {
               </div>
               <div className={classes.content_div}>
                 <p>
-                  Solution for easy and flexible getting meals for the
-                  household.You can trust us anywhere through this platform
+                Turning your scrap into treasure! We buy scrap from homes and offices, making recycling convenient and rewarding. Let us pick up your unwanted items and transform them into sustainable resources for the future. Together, let's build a greener tomorrow.
                 </p>
                 <p>
                   &copy;2022 Made with <i className="bi bi-heart-fill"></i>{" "}
