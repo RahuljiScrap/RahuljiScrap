@@ -9,9 +9,10 @@
 .dish_content .dish_text_div {
   text-align: center;
   font-weight: 700;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 25px;
+  margin-top: 50px;
   color: var(--tertiarytextcolor);
+  color: whitesmoke;
 }
 
 .dish_content .dish_price_div {

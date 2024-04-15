@@ -1,10 +1,12 @@
 .row {
   padding: 100px 0 50px 0;
   max-width: 1200px;
+  display: flex;
 }
 
 .header_div {
   text-align: center;
+  color: whitesmoke;
 }
 
 .header_div h2 {
@@ -24,54 +26,25 @@
   font-size: 20px;
 }
 
-/* HeroThreeSection.module.css */
+.row_dish {
+  border-bottom: 1px solid var(--bordercolor);
+}
 
-.card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.dish_content {
+  padding: 0 30px;
+}
+
+.dish_col {
+  padding: 30px 0;
+  border: 1px solid var(--bordercolor);
+  flex: 1;
+  margin: 10px 10px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0.3, 0.3);
+  background-color: #00b33c;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-.card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.card_body {
-  padding: 16px;
-}
-
-.card_text {
-  font-size: 1rem;
-}
-
-.card_title {
-  margin-top: auto; /* Pushes the title to the bottom */
-  margin-bottom: 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.header_div h2 {
-  margin-bottom: 20px;
-}
-
-.row {
-  margin-bottom: 50px; /* Adds 50px gap between rows */
-}
 
 @media only screen and (max-width: 991px) {
   .row_dish {
