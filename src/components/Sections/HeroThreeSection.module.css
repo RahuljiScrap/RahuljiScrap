@@ -1,10 +1,12 @@
 .row {
   padding: 100px 0 50px 0;
   max-width: 1200px;
+  display: flex;
 }
 
 .header_div {
   text-align: center;
+  color: whitesmoke;
 }
 
 .header_div h2 {
@@ -35,7 +37,14 @@
 .dish_col {
   padding: 30px 0;
   border: 1px solid var(--bordercolor);
+  flex: 1;
+  margin: 10px 10px;
+  border-radius: 10px;
+  background-color: #00b33c;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
+
 
 @media only screen and (max-width: 991px) {
   .row_dish {

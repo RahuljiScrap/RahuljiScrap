@@ -1,29 +1,29 @@
-import React, { useContext } from "react";
+// import React, { useContext } from "react";
 import classes from "./HeroThreeContent.module.css";
-import HeroThreeForm from "./HeroThreeForm";
-import CartContext from "../store/cartcontext";
+// import HeroThreeForm from "./HeroThreeForm";
+// import CartContext from "../store/cartcontext";
 
 const HeroThreeContent = (props) => {
   // Using useContext hooks
-  const cartCtx = useContext(CartContext);
+  // const cartCtx = useContext(CartContext);
   //END
 
   //Converting prices to two decimal places
 
-  const price = `₹ ${props.price.toFixed(2)}`;
+  // const price = `₹ ${props.price.toFixed(2)}`;
 
   //END
 
   //Adding data values to be managed to the useContext
-  const onAddToCartHandler = (amount) => {
-    cartCtx.addItem({
-      id: props.id,
-      name: props.name,
-      amount: amount,
-      price: props.price,
-      src: props.src,
-    });
-  };
+  // const onAddToCartHandler = (amount) => {
+  //   cartCtx.addItem({
+  //     id: props.id,
+  //     name: props.name,
+  //     amount: amount,
+  //     price: props.price,
+  //     src: props.src,
+  //   });
+  // };
   //END
 
   //Layout and structure of the Hero three (Third section) content
@@ -36,8 +36,8 @@ const HeroThreeContent = (props) => {
         <p>{props.name}</p>
       </div>
       <div className={classes.dish_price_div}>
-        <p className="my-auto">{price}</p>
-        <HeroThreeForm onAddToCart={onAddToCartHandler} />
+        <p className="my-auto"></p>
+        {/* <HeroThreeForm onAddToCart={onAddToCartHandler} /> */}
       </div>
     </div>
   );

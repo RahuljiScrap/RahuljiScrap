@@ -9,9 +9,15 @@ import classes from "./HeroThreeSection.module.css";
 // import deluxeBreakfast from "../../assets/image/deluxeBreakfast.png";
 // import premiumBreakfast from "../../assets/image/premiumBreakfast.png";
 import HeroThreeContent from "../SectionComponents/HeroThreeContent";
+<<<<<<< HEAD
 // import dalChawal from "../../assets/image/dalChawal.png";
 // import kadiChawal from "../../assets/image/kadiChawal.png";
 // import rajmaChawal from "../../assets/image/rajmaChawal.png";
+=======
+import schedule from "../../assets/image/car-pickup-truck-delivery-car-f86f1de601a4e48109a5d0307b522b97.png";
+import delivery from "../../assets/image/art-business-royalty-free-others-26967f72c8d69220b8ad283ddf981546.png";
+import payment from "../../assets/image/computer-icons-payment-iconfinder-pay-payment-icon-dc43f146aa42f6f0bb7c99a329a52a4e.png";
+>>>>>>> vishal-ui-15april
 // import lobiaMasalaChawal from "../../assets/image/lobiaMasalaChawal.png";
 
 //Data objects to be used in the HeroThree section for rendering dishes information
@@ -40,6 +46,7 @@ const dummyListone = [
 
 
 const riceMeals = [
+<<<<<<< HEAD
   // {
   //   id: "d1",
   //   src: kadiChawal,
@@ -66,6 +73,29 @@ const riceMeals = [
   //   name: "Lobhiya masala Rice",
   //   price: 69,
   // }
+=======
+  {
+    id: "d1",
+    src: delivery,
+    name: "Schedule a pickup",
+    price: 69,
+  },
+
+  {
+    id: "d2",
+    src: schedule,
+    name: "Pickup at your address",
+    price: 69,
+  },
+
+  {
+    id: "d3",
+    src: payment,
+    name: "Receive payment",
+    price: 69,
+  },
+  
+>>>>>>> vishal-ui-15april
 ];
 
 const dummyListtwo = [
@@ -162,40 +192,37 @@ const HeroThreeSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Large Appliances</h2>
+              <h2>How does it works?</h2>
               <p></p>
             </div>
           </Col>
         </Row>
-        <Col xs={12}>
+        {/* <Col xs={12}>
         <div className={classes.header_div}>
-          <p>Ac upto ₹4000/piece</p>
-          <p>Washing machine ₹1000/piece</p>
+          <p></p>
+          <p></p>
         
-        <p>Fridge upto ₹1500/piece</p>
-        <p>Cooler upto ₹30/kg</p>
+        <p></p>
+        <p></p>
          </div>
-         </Col>
+         </Col> */}
         <Row>{dishListRice}</Row>
-        <Col xs={12}>
+        {/* <Col xs={12}>
         <div className={classes.header_div}>
           <p></p>
           <p></p>
         <h3>Small Appliances</h3>
-        <p> Metal ₹30/kg</p>
-        <p> Plastic</p>
-        <p> Fan ₹30/kg</p>
-        <p> Tv ₹150/piece</p>
+        <p></p>
+        <p></p>
          </div>
-         </Col>
+         </Col> */}
         <Row>{dishList2}</Row>
-        <Col xs={12}>
+        {/* <Col xs={12}>
         <div className={classes.header_div}>
-        <h3>Other Appliances</h3>
-        <p>Bike ₹2100/piece</p>
-        <p>Car ₹20000/piece</p>
+        <h3>Our Breakfast menu</h3>
+        <p></p>
          </div>
-         </Col>
+         </Col> */}
         <Row className={classes.row_dish}>{dishList1}</Row>
       </Container>
     </section>
